@@ -36,6 +36,15 @@
     margin-bottom: 20px;
 }
 
+.desc_pokemon_alt {
+    font-family: "8bit", sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 .evol_pokemon {
     font-family: "8bit", sans-serif;
     color: black;
@@ -84,6 +93,33 @@
 
 .caja_tipo_pokemon_veneno {
     background-color: #BA3DFF;
+    border-radius: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.caja_tipo_pokemon_psiquico {
+    background-color: #fa0068;
+    border-radius: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.caja_tipo_pokemon_dragon {
+    background-color: #7138FF;
+    border-radius: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.caja_tipo_pokemon_volador {
+    background-color: #68B1ED;
     border-radius: 7px;
     padding-top: 2px;
     padding-bottom: 2px;
