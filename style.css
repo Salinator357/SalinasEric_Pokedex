@@ -35,6 +35,13 @@
     text-align: center;
 }
 
+.btn_inicio:hover {
+    font-family: "8bit", sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
 /*Estilos para los textos sobre los Pokemon*/
 .desc_pokemon {
     font-family: "8bit", sans-serif;
