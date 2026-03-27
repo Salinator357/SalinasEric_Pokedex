@@ -174,3 +174,90 @@ ul {
   font-family: "8bit";
   src: url(fonts/ByteBounce.ttf) format(truetype);
 }
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 1024px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container,
+    .pokedex {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .container,
+    .pokedex,
+    .card,
+    .pokemon,
+    .evolution {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .flex,
+    .row,
+    .grid {
+        display: flex;
+        flex-direction: column !important;
+        flex-wrap: wrap;
+    }
+
+    .card,
+    .pokemon {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2, h3 {
+        font-size: 1.2rem;
+    }
+
+    .container,
+    .card,
+    .pokemon {
+        padding: 10px;
+    }
+}
